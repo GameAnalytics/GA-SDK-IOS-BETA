@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  s.name             = "GA-SDK-IOS"
+  s.name             = "GA-SDK-IOS-BETA"
   s.version          = "2.2.18.0"
-  s.homepage         = "https://github.com/GameAnalytics/GA-SDK-IOS"
+  s.homepage         = "https://github.com/GameAnalytics/GA-SDK-IOS-BETA"
   s.author           = { "GameAnalytics" => "sdk@gameanalytics.com" }
-  s.summary          = "GameAnalytics SDK for iOS"
+  s.summary          = "GameAnalytics beta SDK for iOS"
   s.social_media_url = "https://twitter.com/gameanalytics"
 
-  s.source           = { :git => "https://github.com/GameAnalytics/GA-SDK-IOS.git", :tag => "#{s.version}" }
+  s.source           = { :git => "https://github.com/GameAnalytics/GA-SDK-IOS-BETA.git", :tag => "#{s.version}" }
 
   s.source_files    = "GameAnalytics.framework/**/*.{h,m}"
   s.preserve_paths      = "GameAnalytics.framework"
@@ -27,4 +27,3 @@ Pod::Spec.new do |s|
     LICENSE
   }
 end
-
